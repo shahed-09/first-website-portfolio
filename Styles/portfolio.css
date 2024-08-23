@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* headerbackgroundimg */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    font-family: open sans;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+/* common color */
+.orange{
+    color: #FD6E0A;
+}
+.dark1{
+    color: #181818;
+}
+.dark2{
+    color: #474747;
+}
+.dark3{
+    color: #757575;
+}
+.tac{
+    text-align: center;
+}
+.secondbg{
+    background-color: #FFF8F3;
+}
+.navtitle{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* navliststyle */
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.btnprime{
+    background-color: #FD6E0A;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+
+}
+/* bannerstyle */
+.bannergreeting{
+    font-family: open sans;
+    font-size: 45px;
+    font-weight: 600;
+}
+.name{
+    font-family: open sans;
+    font-size: 85px;
+    font-weight: bold;
+}
+.bannerdesc{
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: 300;
+}
+.bannerprofile{
+    width: 585px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.banner-content{
+    max-width: 585px;
+}
+/* mainstyle */
+.mainwd{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+/* aboutstyle */
+.sectiontitle{
+    font-family: open sans;
+    font-size: 35px;
+    font-weight: bold;
+}
+.sectiondesc{
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: 300;
+}
+.aboutme{
+    border-radius: 10px;
+    padding: 130px 156px;
+    margin-top: 130px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.itemtitle{
+    font-family: open sans;
+    font-size: 20px;
+}
+.iteminfo{
+    font-family: open sans;
+    font-size: 20px;
+    font-weight: bold;
+}
+.aboutmebg{
+    background-color: white;
+    border: 2px solid #181818;
+    border-radius: 5px;
+}
+.skillcontainer{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+/* skillsection style */
+.skillset{
+    max-width: 267px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skilltitle{
+    font-family: open sans;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skilldesc{
+    font-family: open sans;
+    font-size: 16px;
+    
+}
