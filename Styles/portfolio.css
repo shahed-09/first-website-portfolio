@@ -168,3 +168,42 @@ nav ul li a{
 .rusume-download-btn{
     margin-top: 50px;
 }
+.footer-title{
+    font-family: open sans;
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer-container{
+    display: flex;
+    gap: 117px;
+    justify-content: space-around;
+}
+.textinfo{
+    max-width: 562px;
+}
+footer{
+    padding: 130px 230px;
+}
+.ff{
+    font-family: open sans;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type=email], footer textarea
+{
+    height: 64px;
+    border-radius: 4px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer p{
+    margin: 30px 0px 30px 0px;
+}
+.footbtn{
+    margin-top: 24px;
+}
